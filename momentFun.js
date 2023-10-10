@@ -25,7 +25,7 @@ function getUpcomingDateWithMoment(selectedDate) {
     }
     currentDate.date(selectedDate);
 
-    return currentDate.format("DD-MM-YYYY");
+    return currentDate.format("DD-MM-YY");
 }
 
 const upcomingDate = getUpcomingDateWithMoment(6);
